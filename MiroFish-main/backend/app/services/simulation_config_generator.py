@@ -16,7 +16,7 @@ from typing import Dict, Any, List, Optional, Callable
 from dataclasses import dataclass, field, asdict
 from datetime import datetime
 
-from openai import OpenAI
+from ..utils.llm_client import OpenAI
 
 from ..config import Config
 from ..utils.logger import get_logger

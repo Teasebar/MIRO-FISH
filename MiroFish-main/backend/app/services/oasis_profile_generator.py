@@ -15,7 +15,7 @@ from typing import Dict, Any, List, Optional
 from dataclasses import dataclass, field
 from datetime import datetime
 
-from openai import OpenAI
+from ..utils.llm_client import OpenAI
 from zep_cloud.client import Zep
 
 from ..config import Config
