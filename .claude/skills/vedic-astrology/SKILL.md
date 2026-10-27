@@ -149,6 +149,13 @@ Birth data & calculation settings (one line each) + the D1 chart (and D9 if usef
   tithi, vara, nakshatra, yoga and karana suitability, avoid Rahu Kaal and
   Vishti karana, and check the transiting Moon's tara from the person's
   janma nakshatra (see `references/dasha-transits.md`).
+- **Forecasts and what-if questions** ("how will the next 2 years go?",
+  "when is the best window for marriage or a job change?", "what if I
+  launch my business in March?"): also run the swarm simulator
+  `scripts/swarm_predict.py`. It is a MiroFish-style multi-agent model in
+  which the grahas are the agents, runs over 1,000 Monte Carlo worlds, and
+  costs no API credits. Read `references/swarm-model.md` first. You write
+  the final report from its output.
 - **Quick questions** ("what's my moon sign / nakshatra?") get a short
   direct answer plus one or two interesting lines.
 
@@ -194,4 +201,5 @@ uplifts. Follow that:
 | `references/yogas-doshas.md` | Assessing yogas/doshas, including ones the script doesn't auto-detect |
 | `references/matching.md` | Kundli Milan / compatibility |
 | `references/remedies.md` | Remedies, mantras, gemstones, fasting, charity |
+| `references/swarm-model.md` | Multi-month forecasts, event windows, what-if scenarios (swarm simulator) |
 | `references/sources.md` | Classical texts and how this skill's defaults compare to leading software |
